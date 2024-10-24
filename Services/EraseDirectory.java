@@ -21,7 +21,7 @@ public class EraseDirectory {
             return;
         }
 
-		if(!BlockAccess.makeFolderUnreadableForOthers(folder)){
+	if(!BlockAccess.makeFolderUnreadableForOthers(folder)){
             System.err.println("Failed to set permissions of the folder"); 
             return; }
 		 
